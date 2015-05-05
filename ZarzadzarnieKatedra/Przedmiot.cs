@@ -18,6 +18,7 @@ public class Przedmiot {
 		set {
 			typ = value;
 
+
 		}
 	}
 
