@@ -14,7 +14,7 @@ public class ListaPrzedmiotow {
 	}
 
 	/// <summary>
-	/// Konstruktor-test
+	/// Konstruktor
 	/// </summary>
 	public ListaPrzedmiotow() {
 		throw new System.Exception("Not implemented");
