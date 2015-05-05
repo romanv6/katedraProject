@@ -3,7 +3,7 @@ public class ListaPrzedmiotow {
 	/// <summary>
 	/// To jest lista objektów Przedmiot
 	/// </summary>
-	private List<Przedmiot> lista;
+	//private List<Przedmiot> lista;
 	public List<Przedmiot> Lista {
 		get {
 			return lista;
@@ -14,10 +14,10 @@ public class ListaPrzedmiotow {
 	}
 
 	/// <summary>
-	/// Konstruktor-tes2
+	/// Konstruktor
 	/// </summary>
 	public ListaPrzedmiotow() {
-		throw new System.Exception("Not implemented");
+		//konstruktor niezbedny
 	}
 	/// <summary>
 	/// Funkcja wczytuje do listy przedmioty z pliku za pomoc¹ funkcji WczytajPrzedmioty() klasy statycznej WczytajPliki
@@ -27,8 +27,8 @@ public class ListaPrzedmiotow {
 		throw new System.Exception("Not implemented");
 	}
 	/// <param name="sciezka">Œcie¿ka do pliku, w którym zapiszemy listê</param>
-	public void Zapisz(string sciezka) {
-		throw new System.Exception("Not implemented");
+	public void Zapisz(List<Przedmiot>przedmioty, string sciezka) {
+		this.lista = przedmioty; 
 	}
 
 	private Przedmiot attribute;
