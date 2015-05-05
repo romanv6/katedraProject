@@ -6,12 +6,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Testy
 {
     /// <summary>
-    /// Summary description for TPrzypPrzedmPrac
+    /// Summary description for TestPrzypisaniaPrzedmiotowPracownikowi
     /// </summary>
     [TestClass]
-    public class TPrzypPrzedmPrac
+    public class TestPrzypisaniaPrzedmiotowPracownikowi
     {
-        public TPrzypPrzedmPrac()
+        public TestPrzypisaniaPrzedmiotowPracownikowi()
         {
             //
             // TODO: Add constructor logic here
