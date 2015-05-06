@@ -1,15 +1,16 @@
 using System;
-public class ListaProwadzacych {
+using System.Collections;
+public class ListaProwadzacych : ICollection {
 	/// <summary>
 	/// To jest lista prowadz¹cych
 	/// </summary>
-	private List[]<Prowadzacy> lista;
+	private List<Prowadzacy> lista;
 
 	/// <summary>
 	/// Konstruktor
 	/// </summary>
 	public ListaProwadzacych() {
-		throw new System.Exception("Not implemented");
+		lista = new List<Prowadzacy>();
 	}
 	/// <summary>
 	/// Funkcja wczytuje do listy prowadzacych z pliku za pomoc¹ funkcji WczytajProwadzacych() klasy statycznej WczytajPliki
@@ -22,7 +23,5 @@ public class ListaProwadzacych {
 	public void Zapisz(string sciezka) {
 		throw new System.Exception("Not implemented");
 	}
-
-	private Prowadzacy -Lista;
 
 }
