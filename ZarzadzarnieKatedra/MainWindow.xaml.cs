@@ -20,10 +20,34 @@ namespace ZarzadzarnieKatedra
     /// </summary>
     public partial class MainWindow : Window
     {
+        public int Wykorzystane
+        {
+            get
+            {
+                int zmienna = 0;
+                foreach (var item in test)
+                {
+                    zmienna += item.Value;
+                }
+                return zmienna;
+            }
+        }
+        //public int Niewykorzystne
+        //{
+        //    get
+        //    {
+        //        return godzinaWykładu - Wykorzystane;
+        //    }
+        //}
         public MainWindow()
         {
             InitializeComponent();
-        }
+            test = new Dictionary<string, int>();
+            test.Add("Roman", 10);
+            test.Add("Michał", 20);
+            test.Add("Karol", 30);
 
+        }
+        Dictionary<string, int> test;
     }
 }

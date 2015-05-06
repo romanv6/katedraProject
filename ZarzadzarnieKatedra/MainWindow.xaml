@@ -1,13 +1,32 @@
 ﻿<Window x:Class="ZarzadzarnieKatedra.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        WindowState="Maximized"
+        Title="Zarządzanie Katedrą" 
+        Height="350" Width="525">
     <Grid>
-        <Menu Background="Transparent">
-            <MenuItem Header="Plik">
-                <MenuItem Header="Wczytaj"/>
-                <MenuItem Header="Zapisz"/>
-            </MenuItem>
-        </Menu>
+        <StackPanel>
+            <Menu Background="Transparent">
+                <MenuItem Header="Plik">
+                    <MenuItem Header="Pracownicy">
+                        <MenuItem Header="Wczytaj">
+
+                        </MenuItem>
+                        <MenuItem Header="Zapisz">
+
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="Przedmioty">
+                        <MenuItem Header="Wczytaj">
+
+                        </MenuItem>
+                        <MenuItem Header="Zapisz">
+
+                        </MenuItem>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+            
+        </StackPanel>
     </Grid>
 </Window>
