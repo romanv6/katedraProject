@@ -72,7 +72,11 @@ public class Prowadzacy {
 	private Przedmiot[] przedmioty;
 
 	public Prowadzacy(string imie, string nazwisko, string pesel, string tytul, string stanowisko) {
-		throw new System.Exception("Not implemented");
+        this.Imie = imie;
+        this.Nazwisko = nazwisko;
+        this.Pesel = this.pesel;
+        this.Tytul = tytul;
+        this.Stanowisko = stanowisko;
 	}
 	public void EdytujDane(string imie, string nazwisko, string pesel, string tytul, string stanowisko) {
 		throw new System.Exception("Not implemented");

@@ -3,7 +3,7 @@ public class ListaProwadzacych {
 	/// <summary>
 	/// To jest lista prowadz¹cych
 	/// </summary>
-	private List<Prowadzacy> lista;
+	private List[]<Prowadzacy> lista;
 
 	/// <summary>
 	/// Konstruktor
@@ -22,5 +22,7 @@ public class ListaProwadzacych {
 	public void Zapisz(string sciezka) {
 		throw new System.Exception("Not implemented");
 	}
+
+	private Prowadzacy -Lista;
 
 }

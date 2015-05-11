@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 public class ElementRankingu {
 	private string nazwaPrzedmiotu;
 	public string NazwaPrzedmiotu {

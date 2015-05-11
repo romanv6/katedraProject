@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,34 +21,18 @@ namespace ZarzadzarnieKatedra
     /// </summary>
     public partial class MainWindow : Window
     {
-        public int Wykorzystane
-        {
-            get
-            {
-                int zmienna = 0;
-                foreach (var item in test)
-                {
-                    zmienna += item.Value;
-                }
-                return zmienna;
-            }
-        }
-        //public int Niewykorzystne
-        //{
-        //    get
-        //    {
-        //        return godzinaWykładu - Wykorzystane;
-        //    }
-        //}
+        ObservableCollection<Prowadzacy> Listaprowadzacych { get; set; }
         public MainWindow()
         {
             InitializeComponent();
-            test = new Dictionary<string, int>();
-            test.Add("Roman", 10);
-            test.Add("Michał", 20);
-            test.Add("Karol", 30);
 
+            Listaprowadzacych = new ObservableCollection<Prowadzacy>();
+            Listaprowadzacych.Add(new Prowadzacy("Michał", "Saleta", "9876543", "mgr", "Chuj"));
+            Listaprowadzacych.Add(new Prowadzacy("Marek", "Saleta", "9876543", "mgr", "Coś"));
+            Listaprowadzacych.Add(new Prowadzacy("Karol", "Kondrad", "9876543", "mgr", "Profesor"));
+            Listaprowadzacych.Add(new Prowadzacy("Witek", "Małż", "9876543", "mgr", "Mon"));
+            Listaprowadzacych.Add(new Prowadzacy("Franek", "Piętka", "9876543", "mgr", "Tor"));
+            Listaprowadzacych.Add(new Prowadzacy("Bartek", "Rowicki", "9876543", "mgr", "Dsafg"));
         }
-        Dictionary<string, int> test;
     }
 }
