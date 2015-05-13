@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+
 public class ListaPrzedmiotow {
 	/// <summary>
 	/// To jest lista objektów Przedmiot
@@ -32,6 +34,6 @@ public class ListaPrzedmiotow {
 	}
 
 	private Przedmiot attribute;
-	private Przedmiot -Lista;
+	private Przedmiot Lista;
 
 }

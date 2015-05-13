@@ -61,4 +61,9 @@ public class Prowadzacy : IComparable
     {
         return "Imiê: " + imie + " Nazwisko: " + nazwisko + " Pesel: " + pesel + " Tytu³: " + tytul + " Stanowisko: " + stanowisko;
     }
+
+    public int CompareTo(object obj)
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -1,9 +1,11 @@
 using System;
+using System.Collections.Generic;
+
 public class ListaProwadzacych {
 	/// <summary>
 	/// To jest lista prowadz¹cych
 	/// </summary>
-	private List[]<Prowadzacy> lista;
+	private List<Prowadzacy> lista;
 
 	/// <summary>
 	/// Konstruktor
@@ -23,6 +25,6 @@ public class ListaProwadzacych {
 		throw new System.Exception("Not implemented");
 	}
 
-	private Prowadzacy -Lista;
+	private Prowadzacy Lista;
 
 }

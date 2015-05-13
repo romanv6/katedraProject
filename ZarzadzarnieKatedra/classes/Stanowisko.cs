@@ -10,8 +10,20 @@ namespace ZarzadzarnieKatedra
     {
         private string nazwa;
         private int liczbaGodzin;
-        public void wczytajStanowiska(); //wczytuje stanowiska z pliku zewnatrznego
-        public void zapiszStanowiska(); //zapisuje stanowiska do pliku
+
+        /// <summary>
+        /// wczytuje stanowiska z pliku zewnatrznego
+        /// </summary>
+        public void wczytajStanowiska()
+        {
+        } 
+
+        /// <summary>
+        /// zapisuje stanowiska do pliku
+        /// </summary>
+        public void zapiszStanowiska()
+        {
+        } 
 
         public Stanowisko(string nazwa, int liczbaGodzin)
         {

@@ -1,87 +1,69 @@
 using System;
-public class Prowadzacy {
-	private string imie;
-	public string Imie {
-		get {
-			return imie;
-		}
-		set {
-			imie = value;
-		}
-	}
-	private string nazwisko;
-	public string Nazwisko {
-		get {
-			return nazwisko;
-		}
-		set {
-			nazwisko = value;
-		}
-	}
-	private int pesel;
-	public int Pesel {
-		get {
-			return pesel;
-		}
-		set {
-			pesel = value;
-		}
-	}
-	private string tytul;
-	public string Tytul {
-		get {
-			return tytul;
-		}
-		set {
-			tytul = value;
-		}
-	}
-	private string stanowisko;
-	public string Stanowisko {
-		get {
-			return stanowisko;
-		}
-		set {
-			stanowisko = value;
-		}
-	}
-	private int pensum;
-	public int Pensum {
-		get {
-			return pensum;
-		}
-		set {
-			pensum = value;
-		}
-	}
-	/// <summary>
-	/// Maksymalna liczba grup jak¹ dany prowadz¹cy mo¿e uczyæ
-	/// </summary>
-	private int maxLiczbaGrup;
-	public int MaxLiczbaGrup {
-		get {
-			return maxLiczbaGrup;
-		}
-		set {
-			maxLiczbaGrup = value;
-		}
-	}
-	/// <summary>
-	/// Przedmioty które mo¿e prowadziæ dany prowadz¹cy
-	/// </summary>
-	private Przedmiot[] przedmioty;
+using System.Collections;
+using System.Collections.Generic; 
+public class Prowadzacy : IComparable
+{
+    private string id { get; set; }
+	private string imie{get;set;}
+    private string nazwisko { get; set; }
+    private int pesel { get; set; }
+    private string tytul { get; set; }
+    private string stanowisko { get; set; }
+    private int pensum 
+    { 
+     get { return pensum; }
+        set
+        {
+            if (stanowisko=="Rektor")
+            {
+                pensum = 30; //do skoñczenia, pensum zale¿y od stanowiska, stanowisko pobierane z pliku zewnêtrznego
+            }
+        }
+    }
 
-	public Prowadzacy(string imie, string nazwisko, string pesel, string tytul, string stanowisko) {
-        this.Imie = imie;
-        this.Nazwisko = nazwisko;
-        this.Pesel = this.pesel;
-        this.Tytul = tytul;
-        this.Stanowisko = stanowisko;
-	}
-	public void EdytujDane(string imie, string nazwisko, string pesel, string tytul, string stanowisko) {
-		throw new System.Exception("Not implemented");
+    private List<Przedmiot> przedmioty { public get; private set; } // Przedmioty które mo¿e prowadziæ dany prowadz¹cy
+    private List<Przedmiot> przedmiotyNauczane {get; set;} //przedmioty, które prowadz¹cy aktualnie uczy
+    private int liczbaUczonychGodzin; //liczba godzin aktualnie wykorzystanych przez prowadz¹cego
+    private int pozostaloGodzin { get { return pensum - liczbaUczonychGodzin; } set; }
+    
+
+	public Prowadzacy(string imie, string nazwisko, int pesel, string tytul, string stanowisko) 
+    {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.pesel = pesel;
+        this.tytul = tytul;
+        this.stanowisko = stanowisko;
+        przedmioty = new List<Przedmiot>();
+        przedmiotyNauczane = new List<Przedmiot>();
 	}
 
+    public int CompareTo(Prowadzacy prowadzacy)
+    {
+        return this.nazwisko.CompareTo(prowadzacy.nazwisko);
+    }
 
+    public void Edytuj(string imiê, string nazwisko, int pesel, string tytul, string stanowisko)
+    {
+        imiê = this.imie;
+        nazwisko = this.nazwisko;
+        pesel = this.pesel;
+        tytul = this.tytul;
+        stanowisko = this.stanowisko;
+    }
 
+    public void Edytuj(Prowadzacy prowadzacy)
+    {
+        //zmienia wartoœci obiektu przy pomocy kontrolek z GUI, do zrobienia
+    }
+
+    public override string ToString()
+    {
+        return "Imiê: " + imie + " Nazwisko: " + nazwisko + " Pesel: " + pesel + " Tytu³: " + tytul + " Stanowisko: " + stanowisko;
+    }
+
+    public int CompareTo(object obj)
+    {
+        throw new NotImplementedException();
+    }
 }

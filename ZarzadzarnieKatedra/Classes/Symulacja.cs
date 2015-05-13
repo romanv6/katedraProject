@@ -17,6 +17,4 @@ public class Symulacja {
 	public ElementRankingu[] PobierzListeRankingowa(string sciezka) {
 		throw new System.Exception("Not implemented");
 	}
-
-
 }
