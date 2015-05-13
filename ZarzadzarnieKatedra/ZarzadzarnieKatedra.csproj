@@ -53,6 +53,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="classes\Przedmiot.cs" />
+    <Compile Include="classes\Stanowisko.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -61,7 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Classes\ElementRankingu.cs" />
+    <Compile Include="classes\Prowadzacy.cs" />
     <Compile Include="Classes\Prowadzacy.cs" />
     <Compile Include="Classes\Przedmiot.cs" />
     <Compile Include="Classes\Symulacja.cs" />

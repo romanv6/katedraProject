@@ -20,7 +20,7 @@ public class Przedmiot {
 		}
 	}
 
-	public Przedmiot(string nazwa, string typ) {
+	public Przedmiot([Optional, DefaultParameterValueAttribute()]string nazwa, string typ) {
 		throw new System.Exception("Not implemented");
 	}
 
