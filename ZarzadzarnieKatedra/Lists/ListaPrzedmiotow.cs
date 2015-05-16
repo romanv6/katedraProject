@@ -26,7 +26,7 @@ namespace LPrzedmiotow
             return ListaPrzedmiotow;
         }
 
-        public List<Przedmiot> Wczytaj(string sciezka)
+        public List<Prowadzacy> Wczytaj(string sciezka)
         {
             throw new System.Exception("Not implemented");
         }
