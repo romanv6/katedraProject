@@ -1,5 +1,5 @@
-nazwa;kierunek;liczba godzin;typ
-analiza;informatyka;50;cwiczenia
-dyskretna;ekonometria;70;wyklad
-dyskretna;ekonometria;20;cwiczenia
-arko;finanse;10;laboratorium
+nazwa;kierunek;semestr;liczba godzin;typ
+analiza;informatyka;3;50;cwiczenia
+dyskretna;ekonometria;2;70;wyklad
+dyskretna;ekonometria;2;20;cwiczenia
+arko;finanse;3;10;laboratorium
