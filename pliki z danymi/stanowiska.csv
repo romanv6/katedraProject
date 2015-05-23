@@ -1,19 +1,19 @@
-stanowisko,pensum
-//nauczyciele akademiccy,
-asystent,
-wykładowca,
-lektor,
-instruktor,
-adiunkt,
-starszy wykładowca,
-profesor nadzwyczajny,
-docent,
-profesor zwyczajny,
-//stanowiska funkcyjne,
-rektor,
-prorektor,
-dziekan,
-prodziekan,
-kanclerz,
-dyrektor,
-kierownik,
+stanowisko;pensum
+//nauczyciele akademiccy;
+asystent;45
+wykładowca;60
+lektor;60
+instruktor;60
+adiunkt;100
+starszy wykładowca;100
+profesor nadzwyczajny;110
+docent;110
+profesor zwyczajny;120
+//stanowiska funkcyjne;
+rektor;120
+prorektor;100
+dziekan;70
+prodziekan;50
+kanclerz;50
+dyrektor;65
+kierownik;55
