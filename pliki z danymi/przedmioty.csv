@@ -1,88 +1,88 @@
 nazwa;kierunek;semestr;liczba godzin;typ
-mikroekonomia;informatyka i ekonometria;1;30;wykład
-mikroekonomia;informatyka i ekonometria;1;15;ćwiczenia
-algebra liniowa;informatyka i ekonometria;1;30;wykład
-algebra liniowa;informatyka i ekonometria;1;30;ćwiczenia
-analiza matematyczna 1;informatyka i ekonometria;1;30;wykład
-analiza matematyczna 1;informatyka i ekonometria;1;30;ćwiczenia
-informatyka ekonomiczna;informatyka i ekonometria;1;15;wykład
+mikroekonomia;informatyka i ekonometria;1;30;wyklad
+mikroekonomia;informatyka i ekonometria;1;15;cwiczenia
+algebra liniowa;informatyka i ekonometria;1;30;wyklad
+algebra liniowa;informatyka i ekonometria;1;30;cwiczenia
+analiza matematyczna 1;informatyka i ekonometria;1;30;wyklad
+analiza matematyczna 1;informatyka i ekonometria;1;30;cwiczenia
+informatyka ekonomiczna;informatyka i ekonometria;1;15;wyklad
 informatyka ekonomiczna;informatyka i ekonometria;1;30;laboratorium
-wstęp do programowania;informatyka i ekonometria;1;15;wykład
-wstęp do programowania;informatyka i ekonometria;1;15;laboratorium
-wstęp do matematyki;informatyka i ekonometria;1;30;wykład
-wstęp do matematyki;informatyka i ekonometria;1;30;ćwiczenia
-język obcy;informatyka i ekonometria;1;60;ćwiczenia
-wychowanie fizyczne;informatyka i ekonometria;1;30;ćwiczenia
-makroekonomia;informatyka i ekonometria;2;30;wykład
-makroekonomia;informatyka i ekonometria;2;15;ćwiczenia
-analiza matematyczna 2;informatyka i ekonometria;2;30;wykład
-analiza matematyczna 2;informatyka i ekonometria;2;30;ćwiczenia
-statystyka opisowa i ekonomiczna;informatyka i ekonometria;2;15;wykład
+wstep do programowania;informatyka i ekonometria;1;15;wyklad
+wstep do programowania;informatyka i ekonometria;1;15;laboratorium
+wstep do matematyki;informatyka i ekonometria;1;30;wyklad
+wstep do matematyki;informatyka i ekonometria;1;30;cwiczenia
+jezyk obcy;informatyka i ekonometria;1;60;cwiczenia
+wychowanie fizyczne;informatyka i ekonometria;1;30;cwiczenia
+makroekonomia;informatyka i ekonometria;2;30;wyklad
+makroekonomia;informatyka i ekonometria;2;15;cwiczenia
+analiza matematyczna 2;informatyka i ekonometria;2;30;wyklad
+analiza matematyczna 2;informatyka i ekonometria;2;30;cwiczenia
+statystyka opisowa i ekonomiczna;informatyka i ekonometria;2;15;wyklad
 statystyka opisowa i ekonomiczna;informatyka i ekonometria;2;30;laboratorium
-algorytmy i struktury danych;informatyka i ekonometria;2;15;wykład
-algorytmy i struktury danych;informatyka i ekonometria;2;30;ćwiczenia
-matematyka dyskretna;informatyka i ekonometria;2;15;wykład 
-matematyka dyskretna;informatyka i ekonometria;2;15;ćwiczenia
-ochrona własności intelektualnej;informatyka i ekonometria;2;15;wykład
-prawo;informatyka i ekonometria;2;30;wykład
-filozofia/psychologia/socjologia;ekonometria;2;30;wykład
-język obcy;ekonometria;2;30;ćwiczenia
-rachunek prawdopodobieństwa i statystyka matematyczna;ekonometria;3;30;wykład
-rachunek prawdopodobieństwa i statystyka matematyczna;ekonometria;3;30;ćwiczenia
-rachunek prawdopodobieństwa i statystyka matematyczna;ekonometria;3;30;laboratorium
-programowanie matematyczne;informatyka i ekonometria;3;15;wykład
-programowanie matematyczne;informatyka i ekonometria;3;15;ćwiczenia
-programowanie komputerowe;informatyka i ekonometria;3;15;wykład
+algorytmy i struktury danych;informatyka i ekonometria;2;15;wyklad
+algorytmy i struktury danych;informatyka i ekonometria;2;30;cwiczenia
+matematyka dyskretna;informatyka i ekonometria;2;15;wyklad 
+matematyka dyskretna;informatyka i ekonometria;2;15;cwiczenia
+ochrona wlasnosci intelektualnej;informatyka i ekonometria;2;15;wyklad
+prawo;informatyka i ekonometria;2;30;wyklad
+filozofia/psychologia/socjologia;informatyka i ekonometria;2;30;wyklad
+jezyk obcy;informatyka i ekonometria;2;30;cwiczenia
+rachunek prawdopodobienstwa i statystyka matematyczna;ekonometria;3;30;wyklad
+rachunek prawdopodobienstwa i statystyka matematyczna;ekonometria;3;30;cwiczenia
+rachunek prawdopodobienstwa i statystyka matematyczna;ekonometria;3;30;laboratorium
+programowanie matematyczne;informatyka i ekonometria;3;15;wyklad
+programowanie matematyczne;informatyka i ekonometria;3;15;cwiczenia
+programowanie komputerowe;informatyka i ekonometria;3;15;wyklad
 programowanie komputerowe;informatyka i ekonometria;3;30;laboratorium
-systemy operacyjne;informatyka i ekonometria;3;15;wykład
+systemy operacyjne;informatyka i ekonometria;3;15;wyklad
 systemy operacyjne;informatyka i ekonometria;3;30;laboratorium
-finanse;informatyka i ekonometria;3;15;wykład
-finanse;informatyka i ekonometria;3;30;ćwiczenia
-prawo pracy/komunikacja międzykulturowa;informatyka i ekonometria;3;15;wykład
-fakultety 1,2,3;informatyka i ekonometria;3;90;wykład
-programowanie zaawansowane;informatyka i ekonometria;4;15;wykład
+finanse;informatyka i ekonometria;3;15;wyklad
+finanse;informatyka i ekonometria;3;30;cwiczenia
+prawo pracy/komunikacja miedzykulturowa;informatyka i ekonometria;3;15;wyklad
+fakultety 1,2,3;informatyka i ekonometria;3;90;wyklad
+programowanie zaawansowane;informatyka i ekonometria;4;15;wyklad
 programowanie zaawansowane;informatyka i ekonometria;4;30;laboratorium
 programowanie zaawansowane;informatyka i ekonometria;4;15;projekt
-bazy danych (SQL);informatyka i ekonometria;4;15;wykład
+bazy danych (SQL);informatyka i ekonometria;4;15;wyklad
 bazy danych (SQL);informatyka i ekonometria;4;30;laboratorium
 bazy danych (SQL);informatyka i ekonometria;4;15;projekt
-podstawy ekonometrii;informatyka i ekonometria;4;15;wykład
+podstawy ekonometrii;informatyka i ekonometria;4;15;wyklad
 podstawy ekonometrii;informatyka i ekonometria;4;30;laboratorium
-matematyka finansowa;informatyka i ekonometria;4;15;wykład
-matematyka finansowa;informatyka i ekonometria;4;15;ćwiczenia
+matematyka finansowa;informatyka i ekonometria;4;15;wyklad
+matematyka finansowa;informatyka i ekonometria;4;15;cwiczenia
 matematyka finansowa;informatyka i ekonometria;4;15;laboratorium
-rachunkowość;informatyka i ekonometria;4;15;wykład
-rachunkowość;informatyka i ekonometria;4;15;ćwiczenia
-fakultety 4,5,6;informatyka i ekonometria;4;90;wykład
+rachunkowosc;informatyka i ekonometria;4;15;wyklad
+rachunkowosc;informatyka i ekonometria;4;15;cwiczenia
+fakultety 4,5,6;informatyka i ekonometria;4;90;wyklad
 praktyki;informatyka i ekonometria;4
-badania operacyjne;informatyka i ekonometria;5;15;wykład
+badania operacyjne;informatyka i ekonometria;5;15;wyklad
 badania operacyjne;informatyka i ekonometria;5;30;laboratorium
-zarządzanie;informatyka i ekonometria;5;30;wykład
-zarządzanie;informatyka i ekonometria;5;15;ćwiczenia
-ekonometria;informatyka i ekonometria;5;15;wykład
+zarzadzanie;informatyka i ekonometria;5;30;wyklad
+zarzadzanie;informatyka i ekonometria;5;15;cwiczenia
+ekonometria;informatyka i ekonometria;5;15;wyklad
 ekonometria;informatyka i ekonometria;5;30;laboratorium
-matematyka ubezpieczeniowa;informatyka i ekonometria;5;15;wykład
+matematyka ubezpieczeniowa;informatyka i ekonometria;5;15;wyklad
 matematyka ubezpieczeniowa;informatyka i ekonometria;5;30;laboratorium
-metody numeryczne/techniki symulacji komputerowych;informatyka i ekonometria;5;15;wykład
-metody numeryczne/techniki symulacji komputerowych;informatyka i ekonometria;5;15;ćwiczenia
+metody numeryczne/techniki symulacji komputerowych;informatyka i ekonometria;5;15;wyklad
+metody numeryczne/techniki symulacji komputerowych;informatyka i ekonometria;5;15;cwiczenia
 metody numeryczne/techniki symulacji komputerowych;informatyka i ekonometria;5;15;laboratorium
-prognozowanie gospodarcze/systemy wspomagające podejmowanie decyzji w przedsiębiorstwie;informatyka i ekonometria;5;15;wykład
-prognozowanie gospodarcze/systemy wspomagające podejmowanie decyzji w przedsiębiorstwie;informatyka i ekonometria;5;30;laboratorium
-seminarium dyplomowe;informatyka i ekonometria;5;30;ćwiczenia
-fakultety 7,8;informatyka i ekonometria;5;60;wykład
-ekonometria przestrzenna;informatyka i ekonometria;6;15;wykład
+prognozowanie gospodarcze/systemy wspomagajace podejmowanie decyzji w przedsiebiorstwie;informatyka i ekonometria;5;15;wyklad
+prognozowanie gospodarcze/systemy wspomagajace podejmowanie decyzji w przedsiebiorstwie;informatyka i ekonometria;5;30;laboratorium
+seminarium dyplomowe;informatyka i ekonometria;5;30;cwiczenia
+fakultety 7,8;informatyka i ekonometria;5;60;wyklad
+ekonometria przestrzenna;informatyka i ekonometria;6;15;wyklad
 ekonometria przestrzenna;informatyka i ekonometria;6;15;laboratorium
-projektowanie systemów informatycznych;informatyka i ekonometria;6;15;wykład
-projektowanie systemów informatycznych;informatyka i ekonometria;6;15;ćwiczenia
-projektowanie systemów informatycznych;informatyka i ekonometria;6;15;laboratorium
-ekonometryczne modelowanie procesów gospodarczych;informatyka i ekonometria;6;15;wykład
-ekonometryczne modelowanie procesów gospodarczych;informatyka i ekonometria;6;30;laboratorium
-systemy i rynki ubezpieczeniowe/rynki kapitałowe;informatyka i ekonometria;6;15;wykład
-systemy i rynki ubezpieczeniowe/rynki kapitałowe;informatyka i ekonometria;6;15;ćwiczenia
-wprowadzenie do systemów BI (Business Intelligence)/przetwarzanie danych w systemach analitycznych;informatyka i ekonometria;6;15;wykład
-wprowadzenie do systemów BI (Business Intelligence)/przetwarzanie danych w systemach analitycznych;informatyka i ekonometria;6;15;laboratorium
-fakultet 9;informatyka i ekonometria;6;30;wykład
-seminarium dyplomowe;informatyka i ekonometria;6;30;ćwiczenia
+projektowanie systemow informatycznych;informatyka i ekonometria;6;15;wyklad
+projektowanie systemow informatycznych;informatyka i ekonometria;6;15;cwiczenia
+projektowanie systemow informatycznych;informatyka i ekonometria;6;15;laboratorium
+ekonometryczne modelowanie procesow gospodarczych;informatyka i ekonometria;6;15;wyklad
+ekonometryczne modelowanie procesow gospodarczych;informatyka i ekonometria;6;30;laboratorium
+systemy i rynki ubezpieczeniowe/rynki kapitalowe;informatyka i ekonometria;6;15;wyklad
+systemy i rynki ubezpieczeniowe/rynki kapitalowe;informatyka i ekonometria;6;15;cwiczenia
+wprowadzenie do systemow BI (Business Intelligence)/przetwarzanie danych w systemach analitycznych;informatyka i ekonometria;6;15;wyklad
+wprowadzenie do systemow BI (Business Intelligence)/przetwarzanie danych w systemach analitycznych;informatyka i ekonometria;6;15;laboratorium
+fakultet 9;informatyka i ekonometria;6;30;wyklad
+seminarium dyplomowe;informatyka i ekonometria;6;30;cwiczenia
 praca licencjacka i egzamin dyplomowy;informatyka i ekonometria;6;20
 Podstawy matematyki wyższej;informatyka;1;30;wyklad
 Podstawy matematyki wyższej;informatyka;1;30;cwiczenia
