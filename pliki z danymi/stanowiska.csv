@@ -1,19 +1,13 @@
-stanowisko;pensum
-//nauczyciele akademiccy;
-asystent;45
-wyk≈Çadowca;60
-lektor;60
-instruktor;60
-adiunkt;100
-starszy wyk≈Çadowca;100
-profesor nadzwyczajny;110
-docent;110
-profesor zwyczajny;120
-//stanowiska funkcyjne;
-rektor;120
-prorektor;100
-dziekan;70
-prodziekan;50
-kanclerz;50
-dyrektor;65
-kierownik;55
+stanowisko;pensum min;pensum max
+doktorant1;60;60
+doktorant2;60;90
+lektor;540;540
+instruktor;540;540
+wyk≥adowca;360;360
+starszy wyk≥adowca;300;360
+adiunkt;240;240
+asystent;240;240
+adiunkt ze stopniem doktora habilitowanego;210;210
+profesor nadzwyczajny SGGW;210;210
+profesor zwyczajnego;180;180
+profesor nadzwyczajny;180;180
