@@ -1,0 +1,96 @@
+imie	nazwisko	pesel	tytul	stanowisko	prz1	prz2	prz3	prz4
+Marcin	Bator	1,29E+11	dr in¿.					
+Piotr	Bilski	234243234	dr hab. in¿.					
+Agata	Binderman	24535235	dr in¿.					
+Jarosˆaw	Bojarski	26234123517	dr					
+Bolesˆaw	Borkowski	49456876	prof. dr hab. 					
+El¿bieta	Borysiuk	4564327	in¿.					
+Leszek	Chmielewski	235658754	dr hab. in¿. 					
+Mariola	Chrzanowska	6543567	dr 					
+Adam	Ciarkowski	356875676	dr hab. in¿. 					
+Hanna	Dudek	3685679486	dr hab. 					
+Marcin	Dudziñski	24563569568	dr					
+Anna	Dyniec	24638356	mgr 					
+Diana	Dziewa-Dawidczyk	256358476	dr in¿.					
+Konrad	Furmañczyk	2,36E+11	dr					
+Marek	Grzelczak	3425358567	mgr					
+Urszula	Grzybowska	2564857265	dr					
+Paweˆ	Hoser	36743456256	dr					
+Wojciech	Hyb	5,67E+11	dr					
+Aleksandra	Ignar	5478456735	dr 					
+Stanisˆaw	Jabˆonowski	23452457457	dr 					
+Beata	Jackowska-Zduniak	23525	dr in¿. 					
+Andrzej	Jakubiec	5,67E+11	dr 					
+Ewa	Jaˆowiecka	23452354	dr 					
+Piotr	Jaˆowiecki	356744	dr in¿. 					
+Paweˆ³	Jankowski	1,35E+11	dr 	prodziekan				
+Maciej	Janowicz	32452538	dr hab. 					
+Stanisˆaw	Jaworski	13538659789	dr 					
+Jerzy	Jezierski	527569765	prof. dr hab. 					
+Andrzej	Jodˆowski	1,35E+11	dr in¿. 					
+Alina	JóŸwikowska	3,45E+14	dr in¿. 					
+Joanna	Kaleta	q3455458478	dr 					
+Andrzej	Karpio	2,35E+14	dr 					
+Krzysztof	Karpio	2,44E+11	dr 					
+Marek	Karwañski	2,56E+14	dr in¿. 					
+Waldemar	Karwowski	234549643	dr in¿. 					
+Helena	Kazieko	67346115	dr 					
+Lucyna	Kazieko	5,78E+15	dr 					
+Krystyna	Kietliñska	2,35E+13	mgr in¿. 					
+Marek	Kociñski	2345347362	dr 					
+Krystyna	Koˆaciñska	23453582	mgr 					
+Krzysztof	Kompa	325635875	dr in¿. 					
+Grzegorz	Koszela	2564657	dr in¿. 					
+Jolanta	Kotlarska	2567468923	dr 					
+Ryszard	Kozera	467567265	dr hab. 					
+Monika	Krawiec	36765773	dr 					
+Michaˆ	Kruk	3,68E+14	dr in¿. 					
+Jan	Krupa	2,35E+12	mgr					
+Jarosˆaw	Kurek	3455478367	dr in¿. 					
+Joanna	Landmesser	3,45E+14	dr hab.					
+Krzysztof	Lipka	6868678	in¿. 					
+Andrzej	£odziñski	2436425	dr in¿. 					
+Piotr	£ukasiewicz	2664646	dr 					
+Maria	Majkowska	3643778	dr					
+Krystyna	Maˆachowska	2636574548	mgr					
+Aleksandra	Matuszewska-Janica	4534587	dr 					
+Rafik	Nafkha	45375376	dr in¿.					
+Luiza	Ochnio	2535673	dr in¿. 					
+Wiesˆaw	Olêdzki	2334561234	dr 					
+Arkadiusz	Orˆ³owski	2,13E+11	dr hab. in¿. 	dziekan				
+Maciej	Pankiewicz	1275475	dr in¿. 					
+Wojciech	Pietrasiñski	567457457	dr 					
+Alexander	Prokopenya	669867967	dr hab. 					
+Marian	Przemski	363636	dr 					
+Adam	PrzeŸdziecki	1352324824	dr 					
+Marcin	Przybylak	34525734753	in¿. 					
+Jerzy	Ró¿añski	2,14E+12	dr 					
+Marian	Rusek	2345347357	dr hab. in¿. 					
+El¿bieta	Saganowska	464564887	dr 					
+Piotr	Stachura	2,56E+13	dr 					
+Robert	Stêpieñ	6373456	dr in¿. 					
+Aleksander	Strasburger	2,35E+13	dr hab. 					
+Dariusz	Strzêciwilk	3454573576	dr in¿. 					
+Wiesˆaw	Szczesny	234525637	dr hab. 					
+Michaˆ	Szymañski	2563674787	dr in¿. 					
+Bartosz	Œwiderski	1,35E+14	dr in¿. 					
+Wacˆawa	Tempczyk	1,45E+12	dr 					
+Joanna	Ukalska	4,35E+12	dr in¿. 					
+Krzysztof	Ukalski	2,35E+12	dr 					
+Maria	Wesoˆowska	2,35E+13	dr 					
+El¿bieta	Wiechowska 	647856867	mgr 					
+Marek	Wierzbicki	25645875781	dr 					
+Artur	Wiliñski	33674678598	dr in¿. 					
+Dorota	Witkowska	3,56E+15	prof. dr hab. 					
+Wˆodzimierz	Wojas	56358568	dr 					
+Mirosˆaw	WoŸniakowski	2345256347	dr in¿. 					
+Tomasz	WoŸniakowski	33	dr in¿. 					
+Piotr	Wrzeciono	6456456	dr in¿. 					
+Zygmunt Jacek	Zawistowski	678457	dr hab. in¿. 					
+Tomasz	Z¹bkowski	346	dr in¿. 					
+Andrzej	Zembrzuski	356	dr 					
+Monika	Zieliñska-Sitkiewicz	3456	dr 					
+Andrzej	Zieliñski	58457457457	dr 					
+Wojciech	Zieliñski	356	prof. dr hab. 					
+Krzysztof	Zmarzˆowski	3,75E+12	dr 					
+Dorota	¯ebrowska-Suchodolska 	3456	dr 					
