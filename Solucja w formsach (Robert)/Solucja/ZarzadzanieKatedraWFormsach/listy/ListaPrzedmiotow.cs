@@ -12,7 +12,7 @@ namespace ZarzadzanieKatedraWFormsach
     public class ListaPrzedmiotowClass //ICollection<Przedmiot>, IList<Przedmiot>
     {
         private Przedmiot przedmiot;
-        public List<Przedmiot> ListaPrzedmiotow;
+        public List<Przedmiot> ListaPrzedmiotow = new List<Przedmiot>();
 
         #region Nie ruszaæ!!!!
 
@@ -30,8 +30,6 @@ namespace ZarzadzanieKatedraWFormsach
             string nazwaKierunku = wiersz[0]; //druga linijka to nazwa kierunku
 
             sr.ReadLine(); //trzeci¹ pomijamy
-
-            ListaPrzedmiotow = new List<Przedmiot>();
 
             int id = 0;
 
