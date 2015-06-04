@@ -1,0 +1,36 @@
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.exe.config
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.Properties.Resources.resources
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.csproj.GenerateResource.Cache
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.Form1.resources
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.exe
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.pdb
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.exe
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.pdb
+C:\Users\Robert\Desktop\ProjektIO\katedraProject\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.exe.config
+C:\Users\Robert\Desktop\ProjektIO\katedraProject\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.exe
+C:\Users\Robert\Desktop\ProjektIO\katedraProject\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.pdb
+C:\Users\Robert\Desktop\ProjektIO\katedraProject\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\ProjektIO\katedraProject\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.Form1.resources
+C:\Users\Robert\Desktop\ProjektIO\katedraProject\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.Properties.Resources.resources
+C:\Users\Robert\Desktop\ProjektIO\katedraProject\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.csproj.GenerateResource.Cache
+C:\Users\Robert\Desktop\ProjektIO\katedraProject\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.exe
+C:\Users\Robert\Desktop\ProjektIO\katedraProject\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.pdb
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.exe.config
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.exe
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.pdb
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.Form1.resources
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.Properties.Resources.resources
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.csproj.GenerateResource.Cache
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.exe
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.pdb
+C:\Users\Robert\Desktop\KatedraProjekt\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.exe.config
+C:\Users\Robert\Desktop\KatedraProjekt\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.exe
+C:\Users\Robert\Desktop\KatedraProjekt\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.pdb
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.exe.config
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.exe
+C:\Users\Robert\Desktop\ProjektIO\Solucja w formsach (Robert)\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.pdb
+C:\Users\Robert\Desktop\ProjektKatedra\Solucja w formsach (Robert)\Solucja\ZarzadzanieKatedraWFormsach\bin\Debug\ZarzadzanieKatedraWFormsach.exe.config
+C:\Users\Robert\Desktop\ProjektKatedra\Solucja w formsach (Robert)\Solucja\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.exe
+C:\Users\Robert\Desktop\ProjektKatedra\Solucja w formsach (Robert)\Solucja\ZarzadzanieKatedraWFormsach\obj\Debug\ZarzadzanieKatedraWFormsach.pdb
