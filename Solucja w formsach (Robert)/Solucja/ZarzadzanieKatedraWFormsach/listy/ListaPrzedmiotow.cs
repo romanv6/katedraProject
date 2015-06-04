@@ -41,19 +41,19 @@ namespace ZarzadzanieKatedraWFormsach
                 {
                     wiersz = line.Split(new char[] {';'});
 
-                    if (Convert.ToInt32(wiersz[4]) == 1 && Convert.ToInt32(wiersz[4]) == 2)
+                    if (Convert.ToInt32(wiersz[4]) == 1 || Convert.ToInt32(wiersz[4]) == 2)
                     {
                         rok = rokRozpoczecia;
                     }
-                    else if (Convert.ToInt32(wiersz[4]) == 3 && Convert.ToInt32(wiersz[4]) == 4)
+                    else if (Convert.ToInt32(wiersz[4]) == 3 || Convert.ToInt32(wiersz[4]) == 4)
                     {
                         rok = rokRozpoczecia + 1;
                     }
-                    else if (Convert.ToInt32(wiersz[4]) == 5 && Convert.ToInt32(wiersz[4]) == 6)
+                    else if (Convert.ToInt32(wiersz[4]) == 5 || Convert.ToInt32(wiersz[4]) == 6)
                     {
                         rok = rokRozpoczecia + 2;
                     }
-                    else if (Convert.ToInt32(wiersz[4]) == 7 && Convert.ToInt32(wiersz[4]) == 8)
+                    else if (Convert.ToInt32(wiersz[4]) == 7 || Convert.ToInt32(wiersz[4]) == 8)
                     {
                         rok = rokRozpoczecia + 3;
                     }
