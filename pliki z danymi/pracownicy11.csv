@@ -1,0 +1,15 @@
+﻿Imię;Nazwisko;Tytuł;Pesel;Stanowisko;Czego może uczyć 1;Czego może uczyć 2;
+Piotr;Bilski;dr inż.;10000000000;adiunkt;Architektura komputerów;Systemy operacyjne;Systemy wbudowane
+Adam;Ciarkowski;dr hab.;20000000000;adiunkt;Podstawy elektroniki;Grafy i sieci;
+Anna;Dyniec;mgr inż.;30000000000;asystent;;;
+Paweł;Hoser;dr;40000000000;adiunkt;Sztuczna Inteligencja;Inteligentne Systemy Obliczeniowe;
+Andrzej;Jodłowski;dr inż.;50000000000;adiunkt;Programowanie zdarzeniowe ;Systemy operacyjne;Bazy danych
+Ryszard;Kozera;prof. dr hab.;60000000000;profesor nadzwyczajny;Sztuczna inteligencja;Metody numeryczne;bazy danych
+Michał;Kruk;dr inż.;70000000000;adiunkt;Budowa stron WWW;Programowanie internetowe;Aplikacje wielowarstwowe
+Jarosław;Kurek;dr inż.;80000000000;adiunkt;Sieci komputerowe;Systemy operacyjne;Usługi sieciowe
+Alexander;Prokopenya;prof. dr hab.;90000000000;"profesor nadzwyczajny;";Wprowadzenie do teorii algorytmów;Grafy i sieci;
+Dariusz;Strzęciwilk;dr inż.;11100000000;adiunkt;Siecii komputerowe;Techniki cyfrowe;
+Michał;Szymański;dr inż.;11000000000;adiunkt;;;
+Bartosz;Świderski;dr inż.;12000000000;adiunkt;Metody numeryczne;Grafy i Sieci;Metody scoringowe;Modelowanie Rekurencyjne;Wprowadzenie do bibliteki OpenGL
+Artur;Wiliski;dr inż.;13000000000;adiunkt;Cyfrowe przetwarzanie sygnałów;Bioinformatyka;
+Jacek;Zawistowski;prof. dr hab.;14000000000;"profesor nadzwyczajny;";;;
