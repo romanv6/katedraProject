@@ -1,0 +1,83 @@
+﻿<Window x:Class="ZarzadzanieKatedra.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Zarządzanie Katedrą" 
+        Height="550" Width="825" FontSize="18">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+        <Menu Background="Transparent" FontSize="16">
+            <MenuItem Header="Plik">
+                <MenuItem Header="Pracownicy">
+                    <MenuItem x:Name="MenuWczytajPracownikow" Header="Wczytaj" Click="MenuWczytajPracownikow_Click">
+
+                    </MenuItem>
+                    <MenuItem x:Name="MenuZapiszPracownikow" Header="Zapisz" Click="MenuZapiszPracownikow_Click">
+
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Przedmioty">
+                    <MenuItem x:Name="MenuWczytajPrzedmioty" Header="Wczytaj" Click="MenuWczytajPrzedmioty_Click">
+
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem x:Name="MenuStanowiska" Header="Załaduj stanowiska" Click="MenuStanowiska_Click"/>
+                <MenuItem x:Name="MenuTypyPracowników" Header="Załaduj typy pracowników" Click="MenuTypyPracowników_Click_1"/>
+            </MenuItem>
+            <MenuItem x:Name="MenuSymulacja" Header="Sumuluj" Visibility="{Binding VisibilityOfSimulation}" Click="MenuSymulacja_Click">
+                
+            </MenuItem>
+        </Menu>
+        <ScrollViewer Grid.Row="1" Visibility="{Binding VisibilityOfViewer}">
+            <StackPanel>
+                <TabControl SelectedIndex="{Binding SelectedTabIndex, Mode=TwoWay}">
+                    <TabItem Header="Prowadzący" Visibility="{Binding VisibilityOfLectures}">
+                        <StackPanel>
+                            <TextBlock Text="Wpisz szukaną frazę" FontSize="13"/>
+                            <TextBox Margin="0 0 0 10" x:Name="txtSzukajProwadzących" TextChanged="txtSzukajProwadzących_TextChanged"/>
+                            <DataGrid Name="DataProwadzacy" AutoGenerateColumns="False" ItemsSource="{Binding ListOfLectures}" >
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Tytuł" Binding="{Binding Tytul}" />
+                                <DataGridTextColumn Header="Imię" Binding="{Binding Imie}" />
+                                <DataGridTextColumn Header="Nazwisko" Binding="{Binding Nazwisko}" />
+                                <DataGridTextColumn Header="Pesel" Binding="{Binding Pesel}" />
+                                <DataGridTextColumn Header="Stanowisko" Binding="{Binding Stanowisko}" />
+                                <DataGridTextColumn Header="Pensum" Binding="{Binding Pensum}" />
+                                <DataGridTextColumn Header="Typ pracownika" Binding="{Binding TypPracownika}" />
+                                <DataGridTextColumn Header="Liczba przedmiotów" Binding="{Binding LiczbaPrzedmiotowKtorychMozeUczyc}" />
+                                <DataGridTemplateColumn Header="Usuń" MinWidth="100">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button x:Name="butUsun" Tag="{Binding}" Click="butUsun_Click">Usuń</Button>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Header="Przedmioty" Visibility="{Binding VisibilityOfClasses}">
+                        <StackPanel>
+                            <TextBlock Text="Wpisz szukaną frazę" FontSize="13"/>
+                            <TextBox Margin="0 0 0 10" x:Name="txtSzukajPrzedmiotow" TextChanged="txtSzukajPrzedmiotow_TextChanged"/>
+                            <DataGrid Name="DataPrzedmioty" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding ListOfClasses}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Nazwa" Binding="{Binding Nazwa}" />
+                                    <DataGridTextColumn Header="Kierunek" Binding="{Binding Kierunek}" />
+                                    <DataGridTextColumn Header="Liczba godzin w jednej grupie" Binding="{Binding LiczbaGodzinJednejGrupy}" />
+                                    <DataGridTextColumn Header="Łączna liczba godzin" Binding="{Binding LacznaLiczbaGodzinPrzedmiotu}" />
+                                    <DataGridTextColumn Header="Liczba uczących" Binding="{Binding LiczbaUczacych}" />
+                                    <DataGridTextColumn Header="Typ przedmiotu" Binding="{Binding TypPrzedmiotu}" />
+                                    <DataGridTextColumn Header="Numer semestru" Binding="{Binding NumerSemestru}" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </StackPanel>
+                    </TabItem>
+                </TabControl>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

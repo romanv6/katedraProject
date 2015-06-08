@@ -56,6 +56,12 @@
     <Compile Include="TestPrzypisaniaPrzedmiotowPracownikowi.cs" />
     <Compile Include="TestZmianyLiczbyGrup.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZarzadzanieKatedra\ZarzadzanieKatedra.csproj">
+      <Project>{a67cefbc-7fe0-41c1-ae81-8979668d83cd}</Project>
+      <Name>ZarzadzanieKatedra</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
