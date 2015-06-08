@@ -1,74 +1,91 @@
-2013;;;
-informatyka;;;
-nazwa;semestr;liczba godzin;typ
-Podstawy matematyki wyzszej;1;30;wyklad
-Podstawy matematyki wyzszej;1;30;cwiczenia
-Podstawy analizy matematycznej;1;30;wyklad
-Podstawy analizy matematycznej;1;30;cwiczenia
-Wstep do programowania;1;30;wyklad
-Wstep do programowania;1;30;laboratorium
-Matematyka dyskretna 1;1;30;wyklad
-Matematyka dyskretna 1;1;30;cwiczenia
-Architektura komputerow;1;30;wyklad
-Architektura komputerow;1;30;laboratorium
-Podstawy ekonomii;1;30;wyklad
-Ergonomia i BHP;1;15;wyklad
-Wychowanie fizyczne;1;30;cwiczenia
-Analiza matematyczna;2;30;wyklad
-Analiza matematyczna;2;30;cwiczenia
-Algebra liniowa;2;30;wyklad
-Algebra liniowa;2;30;cwiczenia
-Algorytmy i struktury danych;2;30;wyklad
-Algorytmy i struktury danych;2;30;laboratorium
-Podstawy fizyki;2;30;wyklad
-Podstawy fizyki;2;30;cwiczenia
-Laboratorium fizyki;2;30;laboratorium
-Matematyka dyskretna 2;2;30;wyklad
-Matematyka dyskretna 2;2;30;cwiczenia
-Psychologia/Filozofia/Socjologia;2;30;wyklad
-Rachunek prawdopodobienstwa i statystyka;3;30;wyklad
-Rachunek prawdopodobienstwa i statystyka;3;30;cwiczenia
-Programowanie obiektowe;3;30;wyklad
-Programowanie obiektowe;3;30;laboratorium
-Systemy operacyjne;3;30;wyklad
-Systemy operacyjne;3;30;laboratorium
-Podstawy elektroniki;3;30;wyklad
-Podstawy elektroniki;3;30;cwiczenia
-Laboratorium elektroniki;3;30;laboratorium
-Formy dzialalno?ci gospodarczej;3;15;wyklad
-Formy dzialalno?ci gospodarczej;3;15;cwiczenia
-Ochrona wlasno?ci intelektualnej;3;15;wyklad
-Jezyk obcy;3;60;cwiczenia
-Technologie baz danych;4;30;wyklad
-Technologie baz danych;4;30;laboratorium
-Inzynieria Oprogramowania;4;30;wyklad
-Inzynieria Oprogramowania;4;30;laboratorium
-Grafy i sieci;4;30;wyklad
-Grafy i sieci;4;15;cwiczenia
-Metody numeryczne;4;30;wyklad
-Metody numeryczne;4;15;cwiczenia
-Metody numeryczne;4;15;laboratorium
-Metody analizy danych;4;15;wyklad
-Metody analizy danych;4;15;laboratorium
-Fakultet1;4;30;wyklad
-Fakultet2;4;30;wyklad
-Jezyk obcy;4;60;cwiczenia
-Sieci komputerowe;5;30;wyklad
-Sieci komputerowe;5;30;laboratorium
-Paradygmaty programowania;5;30;wyklad
-Paradygmaty programowania;5;30;laboratorium
-Techniki cyfrowe i podstawy systemow wbudowanych;5;30;wyklad
-Techniki cyfrowe i podstawy systemow wbudowanych;5;30;laboratorium
-Fakultet3;5;15;wyklad
-Fakultet3;5;15;laboratorium
-Grafika komputerowa i komunikacja z komputerem;6;30;wyklad
-Grafika komputerowa i komunikacja z komputerem;6;30;laboratorium
-Problemy spoleczne i zawodowe informatyki;6;15;wyklad
-Projekt zespolowy;6;15;laboratorium
-Fakultet4;6;15;wyklad
-Fakultet4;6;15;laboratorium
-Seminarium dyplomowe;6;30;cwiczenia
-Sztuczna inteligencja;6;30;wyklad
-Sztuczna inteligencja;6;15;laboratorium
-Prawo pracy/Najnowsza historia Polski/Komunikacja miedzykulturowa/Historia cywilizacji europejskie;6;30;wyklad
-Seminarium dyplomowe;6;30;cwiczenia
+2013;;;;
+informatyka;;;;
+nazwa_przedmiotu;w;ćw;lab;sem
+Podstawy matematyki wyższej;30;30;;1
+Podstawy analizy matematycznej;30;30;;1
+Wstęp do programowania;30;;30;1
+Matematyka dyskretna 1;30;30;;1
+Architektura komputerów;30;;30;1
+Podstawy ekonomii;30;;;1
+Ergonomia i BHP;15;;;1
+Wychowanie fizyczne;;30;;1
+Analiza matematyczna;30;30;;2
+Algebra liniowa;30;30;;2
+Algorytmy i struktury danych;30;;30;2
+Podstawy fizyki;30;30;;2
+Laboratorium fizyki;;;30;2
+Matematyka dyskretna 2;30;30;;2
+Psychologia/ Filozofia/ Socjologia [*];30;;;2
+Rachunek prawdopodobieństwa i statystyka;30;30;;3
+Programowanie obiektowe;30;;30;3
+Systemy operacyjne;30;;30;3
+Podstawy elektroniki;30;30;;3
+Laboratorium elektroniki;;;30;3
+Formy działalności gospodarczej;15;15;;3
+Ochrona własności intelektualnej;15;;;3
+Język obcy;;60;;3
+Technologie baz danych;30;;30;4
+Inżynieria Oprogramowania;30;;30;4
+Grafy i sieci;30;15;;4
+Metody numeryczne;30;15;15;4
+Metody analizy danych;15;;15;4
+Fakultety ogólne 1, 2;60;;;4
+Język obcy;;60;;4
+Sieci komputerowe;30;;30;5
+Paradygmaty programowania;30;;30;5
+Techniki cyfrowe i podstawy systemow wbudowanych;30;;30;5
+Fakultet ogólny 3;15;;15;5
+Praktyki;;;;5
+Grafika komputerowa i komunikacja z komputerem;30;;30;6
+Problemy społeczne i zawodowe informatyki;15;;;6
+Projekt zespołowy;;;15;6
+Fakultet ogólny 4;15;;15;6
+Seminarium dyplomowe;;30;;6
+Sztuczna inteligencja;30;;15;7
+"Prawo pracy / Najnowsza historia Polski/ Komunikacja
+międzykulturowa/ Historia cywilizacji europejskie [*]";30;;;7
+Seminarium dyplomowe;;30;;7
+Analiza i modelowanie danych;15;;30;5
+Architektura oprogramowania;15;;30;5
+Fakultet specjalnościowy 1;15;;15;5
+Metody Data Mining;30;;30;6
+Ochrona informacji i bezpieczeństwo systemów;30;;30;6
+Hurtownie danych;15;;30;6
+Systemy przetwarzania danych;15;;30;6
+Fakultet specjalnościowy 2;15;;15;6
+Systemy Business Intelligence;15;;30;7
+Inżynieria danych;15;;15;7
+Fakultet specjalnościowy 3;15;;15;7
+Architektura oprogramowania;15;;30;5
+Programowanie komponentowe;15;;30;5
+Fakultet specjalnościowy 1;15;;15;5
+Programowanie w Internecie;15;;30;6
+Ochrona informacji i bezpieczeństwo systemów;30;;30;6
+Hurtownie danych;15;;30;6
+Systemy przetwarzania danych;30;;30;6
+Fakultet specjalnościowy 2;15;;15;6
+Systemy Business Intelligence;15;;30;7
+Systemy handlu elektronicznego;15;;15;7
+Fakultet specjalnościowy 3;15;;15;7
+Teoria algorytmów;15;;30;5
+Podstawy teleinformatyki;15;;30;5
+Fakultet specjalnościowy 1;15;;15;5
+Systemy wbudowane;30;;30;6
+Systemy rozproszone;30;;30;6
+Usługi sieciowe;30;;15;6
+Symulacja komputerowa;15;;30;6
+Fakultet specjalnościowy 2;15;;15;6
+Systemy mobilne i komunikacja bezprzewodowa;30;;15;7
+Bezpieczeństwo systemów komputerowych;15;;15;7
+Fakultet specjalnościowy 3;15;;15;7
+Systemy multimedialne;30;;15;5
+Programowanie komponentowe;15;;30;5
+Fakultet specjalnościowy 1;15;;15;5
+Aplikacje internetowe;30;;15;6
+Systemy rozproszone;30;;30;6
+Wizualizacja danych;30;;30;6
+Symulacja komputerowa;15;;30;6
+Fakultet specjalnościowy 2;15;;15;6
+Cyfrowe przetwarzanie obrazu;30;;15;7
+Animacja komputerowa;15;;15;7
+Fakultet specjalnościowy 3;15;;15;7
