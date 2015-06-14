@@ -115,6 +115,15 @@ namespace ZarzadzanieKatedra
         }
 
         /// <summary>
+        /// Ilosc grup
+        /// </summary>
+        private int liczbaGrup;
+        public int LiczbaGrup
+        {
+            get { return liczbaGrup; }
+            set { liczbaGrup = value; }
+        }
+        /// <summary>
         /// konstruktor
         /// </summary>
         public Przedmiot(int id, string nazwa, string kierunek, int liczbaGodzinJednejGrupy, string typPrzedmiotu, int numerSemestru, int numerRoku)
@@ -125,53 +134,39 @@ namespace ZarzadzanieKatedra
             LiczbaGodzinJednejGrupy = liczbaGodzinJednejGrupy;
             NumerSemestru = numerSemestru;
             TypPrzedmiotu = typPrzedmiotu;
-            LacznaLiczbaGodzinPrzedmiotu = LacznaLiczbaGodzinWZaleznosciOdSemestru(NumerSemestru, TypPrzedmiotu);
+            //LacznaLiczbaGodzinPrzedmiotu = LacznaLiczbaGodzinWZaleznosciOdSemestru(NumerSemestru, TypPrzedmiotu); Zast¹piona now¹ funkcj¹
             PozostalaLiczbaGodzin = LacznaLiczbaGodzinPrzedmiotu;
             //OsobyProwadzacePrzedmiot = new Dictionary<Prowadzacy, int>();
             OsobyProwadzacePrzedmiot = new List<Prowadzacy>();
             NumerRoku = numerRoku;
+            switch (typPrzedmiotu)
+            {
+                case "wyk³ad":
+                        liczbaGrup = 1;
+                break;
+
+                case "æwiczenia":
+                        liczbaGrup = 2;
+                break;
+
+                case "laboratiorium":
+                        liczbaGrup = 4;
+                break;
+
+                default:
+                    liczbaGrup = 0; //Jak cos ktos zle poda, to co?
+                break;
+            }
+			lacznaLiczbaGodzin();
         }
 
         /// <summary>
         /// metoda zwraca ³¹czn¹ liczbê godzin które odbêd¹ siê w obrêbie danego przedmiotu
         /// </summary>
-        public int LacznaLiczbaGodzinWZaleznosciOdSemestru(int numerSemestru, string typPrzedmiotu)
+
+        public void lacznaLiczbaGodzin()
         {
-            if (typPrzedmiotu != "wyk³ad") //wyk³adu nie ma podzia³u na grupy
-            {
-                if (numerSemestru == 1)
-                {
-                    return liczbaGodzinJednejGrupy * 8; //na pierwszym semestrze jest 8 grup
-                }
-                else if (numerSemestru == 2)
-                {
-                    return liczbaGodzinJednejGrupy * 6; //na 2 semestrze jest 6 grup
-                }
-                else if (numerSemestru == 3)
-                {
-                    return liczbaGodzinJednejGrupy * 5; //na 3 semestrze jest 5 grup
-                }
-                else if (numerSemestru == 4)
-                {
-                    return liczbaGodzinJednejGrupy * 4; //na 4 semestrze jest 5 grup
-                }
-                else if (numerSemestru == 5)
-                {
-                    return liczbaGodzinJednejGrupy * 4; //na 5 semestrze jest 4 grup
-                }
-                else if (numerSemestru == 6 || numerSemestru == 7)
-                {
-                    return liczbaGodzinJednejGrupy * 4; //na 6,7 semestrze s¹ 4 grup
-                }
-                else
-                {
-                    return liczbaGodzinJednejGrupy * 2; //powy¿ej (magisterka itp.) s¹ 2 grupy
-                }
-            }
-            else
-            {
-                return liczbaGodzinJednejGrupy; //wyk³adu nie ma podzia³u na grupy, liczba godzin jest taka sama
-            }
+            lacznaLiczbaGodzinPrzedmiotu = liczbaGodzinJednejGrupy * liczbaGrup;
         }
 
         public override string ToString()
@@ -185,6 +180,47 @@ namespace ZarzadzanieKatedra
         {
             return this.Nazwa.CompareTo(other.Nazwa);
         }
+
+        #region metoda LacznaLiczbaGodzinWZaleznosciOdSemestru ZAKOMENTOWANA
+        //public int LacznaLiczbaGodzinWZaleznosciOdSemestru(int numerSemestru, string typPrzedmiotu)
+        //{
+        //    if (typPrzedmiotu != "wyk³ad") //wyk³adu nie ma podzia³u na grupy
+        //    {
+        //        if (numerSemestru == 1)
+        //        {
+        //            return liczbaGodzinJednejGrupy * 8; //na pierwszym semestrze jest 8 grup
+        //        }
+        //        else if (numerSemestru == 2)
+        //        {
+        //            return liczbaGodzinJednejGrupy * 6; //na 2 semestrze jest 6 grup
+        //        }
+        //        else if (numerSemestru == 3)
+        //        {
+        //            return liczbaGodzinJednejGrupy * 5; //na 3 semestrze jest 5 grup
+        //        }
+        //        else if (numerSemestru == 4)
+        //        {
+        //            return liczbaGodzinJednejGrupy * 4; //na 4 semestrze jest 5 grup
+        //        }
+        //        else if (numerSemestru == 5)
+        //        {
+        //            return liczbaGodzinJednejGrupy * 4; //na 5 semestrze jest 4 grup
+        //        }
+        //        else if (numerSemestru == 6 || numerSemestru == 7)
+        //        {
+        //            return liczbaGodzinJednejGrupy * 4; //na 6,7 semestrze s¹ 4 grup
+        //        }
+        //        else
+        //        {
+        //            return liczbaGodzinJednejGrupy * 2; //powy¿ej (magisterka itp.) s¹ 2 grupy
+        //        }
+        //    }
+        //    else
+        //    {
+        //        return liczbaGodzinJednejGrupy; //wyk³adu nie ma podzia³u na grupy, liczba godzin jest taka sama
+        //    }
+        //}
+        #endregion
     }
 }
 
